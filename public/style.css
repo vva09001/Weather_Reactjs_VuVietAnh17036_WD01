@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    background-color: #9494ff;
+    color: white;
+    background:  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+.inputCity {
+    border: none;
+    outline: none !important;
+    padding: 0.2rem;
+    background-color:  #eeeeee;
+    /* color: #ffffff; */
+    border-radius: 3px;
+}
+/* .inputCity::placeholder {
+    color: #ffffff;
+} */
+/* .buttonCity {
+    border: none;
+    outline: none !important;
+    padding: 0.2rem;
+    background-color:  #999999;
+  
+} */
+.navbl {
+    float: left;
+    color: #ffffff;
+    opacity: 0.5px;
+}
+.weatherOne {
+    text-align: center;
+  
+}
+.live__scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 0px;
+    background-color: #7777ff8c
+}
+
+.live__scroll .row {
+    display: block;
+}
+
+.live__scroll .live__scroll--box {
+    display: inline-block;
+    float: none;
+    padding: 15px;
+   
+    min-width: 200px;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.chooseday
+{
+    background-color:#9494ff;
+}
+.live__scroll--box:hover
+{
+    background-color: #9494ff;
+}
+.chooseday:hover {
+    background-color: #9494ff;
+}
+.choie {
+    cursor: pointer;
+    background-color: #7777ff8c;
+    /* width: 150px; */
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+.choie:hover {
+    background-color:#9494ff;
+}
+
+ ::-webkit-scrollbar {
+            width: 2px;
+            height: 2px;
+        }
+
+        ::-webkit-scrollbar-button {
+            width: 2px;
+            height: 2px;
+        } 

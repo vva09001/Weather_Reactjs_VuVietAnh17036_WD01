@@ -1,0 +1,15 @@
+{
+  "name": "theweather",
+  "version": "1.0.0",
+  "description": "TheWeather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
